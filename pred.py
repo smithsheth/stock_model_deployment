@@ -3,6 +3,7 @@ import math
 import pandas_datareader as web
 import numpy as np
 import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
 import os
 import yfinance as yf
 from keras.models import Sequential
