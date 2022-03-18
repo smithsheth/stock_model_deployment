@@ -3,12 +3,9 @@ import math
 import pandas_datareader as web
 import numpy as np
 import pandas as pd
-import tensorflow as tf
 import os
 import yfinance as yf
-from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential
-from keras.layers import Dense, LSTM
 from datetime import datetime
 import pickle
 import keras
