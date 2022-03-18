@@ -12,8 +12,6 @@ from keras.layers import Dense, LSTM
 from datetime import datetime
 import pickle
 import keras
-import matplotlib.pyplot as plt
-plt.style.use('fivethirtyeight')
 
 
 def main_prediction(symbol):
